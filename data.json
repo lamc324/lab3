@@ -1,0 +1,134 @@
+[
+   {
+      "_id":{
+         "$oid":"582f8c37dcba0f56c74b6a4e"
+      },
+      "index":0,
+      "guid":"8f831b97-b517-472a-aaf3-eb106107ae36",
+      "isActive":false,
+      "balance":"$0",
+      "picture":"NA",
+      "age":21,
+      "eyeColor":"NA",
+      "name":{
+         "first":"Dryer",
+         "last":"Camacho"
+      },
+      "company":"",
+      "email":"dyer.camacho@digigene.com",
+      "phone":"+1 (919) 593-2251",
+      "address":"NA",
+      "about":"NA",
+      "registered":"NA",
+      "latitude":"NA",
+      "longitude":"NA",
+      "tags":[
+         "student",
+         "updated"
+      ],
+      "friends":[
+         {
+            "id":0,
+            "name":"Amigo por defecto 1 updated"
+         },
+         {
+            "id":1,
+            "name":"Amigo por defecto 2 updated"
+         },
+         {
+            "id":2,
+            "name":"Amigo por defecto 3 updated"
+         }
+      ],
+      "favoriteFruit":"NA"
+   },
+   {
+      "_id":{
+         "$oid":"582f8c70dcba0f56c74b6a54"
+      },
+      "index":8,
+      "guid":"e0f37d8c-dc8d-4f3e-bc64-6ed6fd3e234a",
+      "isActive":true,
+      "balance":"$3,167.57",
+      "picture":"http://placehold.it/32x32",
+      "age":37,
+      "eyeColor":"green",
+      "name":{
+         "first":"Annette",
+         "last":"Henson"
+      },
+      "company":"SUREPLEX",
+      "email":"annette.henson@sureplex.info",
+      "phone":"+1 (872) 550-2746",
+      "address":"299 Beadel Street, Darlington, South Carolina, 8211",
+      "about":"Aliquip aute Lorem sit aliqua eu aliquip id officia elit exercitation. In exercitation duis anim in occaecat occaecat fugiat ullamco reprehenderit eu duis enim. Commodo fugiat nisi aliqua proident id quis. Enim enim culpa sint sint commodo voluptate.",
+      "registered":"Wednesday, January 6, 2016 5:21 PM",
+      "latitude":"21.897368",
+      "longitude":"-7.715507",
+      "tags":[
+         "ullamco",
+         "id",
+         "sint",
+         "commodo",
+         "officia"
+      ],
+      "friends":[
+         {
+            "id":0,
+            "name":"Blackwell Chapman"
+         },
+         {
+            "id":1,
+            "name":"Rocha Gill"
+         },
+         {
+            "id":2,
+            "name":"Skinner Juarez"
+         }
+      ],
+      "favoriteFruit":"strawberry"
+   },
+   {
+      "_id":{
+
+      },
+      "index":0,
+      "guid":"8f831b97-b517-472a-aaf3-eb106107ae36",
+      "isActive":false,
+      "balance":"$0",
+      "picture":"NA",
+      "age":21,
+      "eyeColor":"NA",
+      "name":{
+         "first":"Markus",
+         "last":"Camacho"
+      },
+      "company":"",
+      "email":"dyer.camacho@digigene.com",
+      "phone":"+1 (919) 593-2251",
+      "address":"NA",
+      "about":"NA",
+      "registered":"NA",
+      "latitude":"NA",
+      "longitude":"NA",
+      "tags":[
+         "student",
+         "updated"
+      ],
+      "friends":[
+         {
+            "id":0,
+            "name":"Amigo por defecto 1 updated"
+         },
+         {
+            "id":1,
+            "name":"Amigo por defecto 2 updated"
+         },
+         {
+            "id":2,
+            "name":"Amigo por defecto 3 updated"
+         }
+      ],
+      "favoriteFruit":"NA"
+   }
+]

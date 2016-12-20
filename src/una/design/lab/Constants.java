@@ -10,12 +10,12 @@ package una.design.lab;
  * @author Estudiante
  */
 public class Constants {
-    
+
     public static final String FILENAME = "data.json";
 
     /**
      *
      */
-    public static final Object[] TABLE_HEADER = {"Name", "Email", "Tags", "Friends"};
-    
+    public static final Object[] TABLE_HEADER = {"Name", "Apellido", "Email", "Tags", "Friends"};
+
 }

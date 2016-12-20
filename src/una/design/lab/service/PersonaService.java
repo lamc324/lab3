@@ -6,6 +6,7 @@
 package una.design.lab.service;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
@@ -21,7 +22,7 @@ public class PersonaService {
 
     public PersonaService() {
     }
-    
+
     public Object[][] cargarPersonasObjWrapper() throws JsonGenerationException,
             JsonMappingException, IOException {
         Persona[] personas = cargarPersonasDeArchivo();
@@ -34,25 +35,26 @@ public class PersonaService {
                 data[i][0] = checkIfNull(persona.getName().getFirst());
                 data[i][1] = checkIfNull(persona.getName().getLast());
                 data[i][2] = checkIfNull(persona.getEmail());
-                data[i][3] = checkIfNull(persona.getTags());
-                data[i][4] = checkIfNull(persona.getFriends());
+                data[i][3] = checkIfNull(persona.getEachTag());
+                data[i][4] = checkIfNull(persona.getFriendsNames());
                 i++;
             }
         }
 
         return data;
     }
-    
+
     private Persona[] cargarPersonasDeArchivo() throws JsonGenerationException,
             JsonMappingException, IOException {
-        
+
         Persona[] personas = null;
         ObjectMapper mapper = new ObjectMapper();
+        mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
         personas = mapper.readValue(new File(Constants.FILENAME), Persona[].class);
 
         return personas;
     }
-    
+
     private String checkIfNull(Object obj) {
         String text;
         if (obj == null) {
