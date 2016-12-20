@@ -28,7 +28,7 @@ public class PersonaService {
         Object[][] data = null;
 
         if (personas != null && personas.length > 0) {
-            data = new Object[personas.length][4]; // filas y columnas
+            data = new Object[personas.length][5]; // filas y columnas
             int i = 0;
             for (Persona persona : personas) {
                 data[i][0] = checkIfNull(persona.getName().getFirst());
